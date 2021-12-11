@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   labels:
     app: techtrends
-  name: sandbox
+  name: {{ .Values.namespace.name }} 
